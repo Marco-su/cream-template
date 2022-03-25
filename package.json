@@ -2,7 +2,7 @@
   "name": "template-white-cream",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marco-su.github.io/cream-template",
+  "homepage": "https://marco-su.github.io/cream-template/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
