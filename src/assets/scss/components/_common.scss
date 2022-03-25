@@ -1,0 +1,35 @@
+@use "../utils/variables"as v;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.cursive {
+    font-family: 'Hurricane',
+        cursive;
+    font-size: 30px;
+}
+
+.resume {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto v.$section-margin;
+    font-size: 1.1rem;
+}

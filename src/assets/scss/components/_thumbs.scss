@@ -1,0 +1,61 @@
+.thumb-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2.5rem;
+    width: 80%;
+    margin: 0 auto 1rem;
+    text-align: center;
+
+    .card1,
+    .card2,
+    .card3 {
+        max-height: 300px;
+
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+
+        &>div {
+            flex-grow: 1;
+            max-height: 90%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .card2 {
+        &>div {
+            display: flex;
+            justify-content: space-between;
+             max-height: 65%;
+
+            img {
+                width: 30%;
+            }
+        }
+
+        .cursive {
+            font-size: 2rem;
+        }
+    }
+
+    .card3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}

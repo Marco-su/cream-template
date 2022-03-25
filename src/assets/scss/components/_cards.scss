@@ -1,0 +1,42 @@
+@use "../utils/variables"as v;
+
+.cards {
+    margin: 0 auto v.$section-margin;
+    width: 80%;
+
+    .cursive {
+        text-align: end;
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .articles-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 3rem;
+
+        article {
+            background-color: v.$main-color;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+
+            h3,
+            h3+p {
+                text-align: center;
+            }
+
+            p {
+                margin-bottom: 1.5rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                padding: 0.3rem 1rem;
+                background-color: v.$glass-black;
+                align-self: flex-end;
+            }
+        }
+    }
+}
