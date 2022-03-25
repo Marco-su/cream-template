@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cream-template/static/css/main.519c5884.css",
+    "main.js": "/cream-template/static/js/main.03ab0d66.js",
+    "static/media/home-main.jpg": "/cream-template/static/media/home-main.a14d8f4aa45682ff0a73.jpg",
+    "static/media/home-bottom.jpg": "/cream-template/static/media/home-bottom.e131414f25fea15171bd.jpg",
+    "static/media/dev-laptop.jpg": "/cream-template/static/media/dev-laptop.22d607921c9b9d226f7b.jpg",
+    "static/media/home-startup.jpg": "/cream-template/static/media/home-startup.9bb17ef5a4f8009f87f2.jpg",
+    "static/media/home-mid1.jpg": "/cream-template/static/media/home-mid1.3b3620bc6155f3f32830.jpg",
+    "static/media/home-mid2.jpg": "/cream-template/static/media/home-mid2.817251801b69a950c615.jpg",
+    "static/media/home-tablet.jpg": "/cream-template/static/media/home-tablet.f52945ee3b78ee6610dd.jpg",
+    "static/media/home-calculator.jpg": "/cream-template/static/media/home-calculator.fcfc8af2316b5e492540.jpg",
+    "static/media/home-digital.jpg": "/cream-template/static/media/home-digital.f2b9608223a81094fb04.jpg",
+    "static/media/home-sign.png": "/cream-template/static/media/home-sign.3a3daa22c1c5e24105ed.png",
+    "index.html": "/cream-template/index.html",
+    "main.519c5884.css.map": "/cream-template/static/css/main.519c5884.css.map",
+    "main.03ab0d66.js.map": "/cream-template/static/js/main.03ab0d66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.519c5884.css",
+    "static/js/main.03ab0d66.js"
+  ]
+}
