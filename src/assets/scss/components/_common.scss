@@ -1,5 +1,23 @@
 @use "../utils/variables"as v;
 
+::-webkit-scrollbar {
+    width: 9px;
+    height: 10px;
+
+    &-thumb {
+        background: #b3afb3;
+        border-radius: 30px;
+
+        &:hover {
+            background: #bfbfbf;
+        }
+    }
+
+    &-track {
+        background: #e6e6e6;
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Montserrat',
